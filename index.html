@@ -4,18 +4,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
     <title>Rock Paper Scissors</title>
 </head>
 <body>
-    <div class="container">
-        <button class="rock">Rock</button>
-        <button class="paper">Paper</button>
-        <button class="scissors">Scissors</button>
-        <div class="score_keeper">
-            <p class="game_text">Let's Play!</p>
+    <!-- Modal section-->
+    <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <p class="modal-text">Some text in the Modal..</p>
+          <button class="reset-game">Restart</button>
         </div>
-    </div>
+      
+      </div>
+      <!-- app code -->
+    <header>
+        <div class="container">
+            <h1>ROCK, PAPER, SCISSORS GAME</h1>
+        </div>
+    </header>
+    <section>
+        <div class="btn-container">
+            <button id="rock" class="weapon-btn"></button>
+            <button id="paper" class="weapon-btn"></button>
+            <button id="scissors" class="weapon-btn"></button>
+        </div>
+            <div class="updates">
+                <p class="paraUpdates"></p>
+            </div>
+    </section>
+    
+        
+        
+       
+    
     
 </body>
 </html>
